@@ -6,7 +6,7 @@ $page = 'home';
     <section class="dashboard-main">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-12 col-12">
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
                     <div class="side-menu">
                         <div>
                             <a class="menu-brand" href="javascript:;"><img class="img-fluid" src="images/logo.png"
@@ -50,17 +50,70 @@ $page = 'home';
                             Out</a>
                     </div>
                 </div>
-                <div class="col-xxl-10 col-xl-10 col-lg-8 col-md-8 col-sm-12 col-12">
+                <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 pe-lg-5">
                     <div class="dashboard-content">
                         <div class="top-content">
                             <div class="search-field">
-                                <span class="icon"><i class="fa-regular fa-magnifying-glass"></i></span>
+                                <span class="icon"><i class="fa-solid fa-magnifying-glass"></i></span>
                                 <input type="text" placeholder="Search spa services…">
                             </div>
-                            <ul class="">
-                                <li></li>
+                            <ul class="mid-nav">
+                                <li class="dropdown-wrap">
+                                    <a class="link-item" href="javascript:;" role="button" id="messagesNotify"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Messages
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="messagesNotify">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-wrap">
+                                    <a class="link-item" href="javascript:;" role="button" id="helpNotify"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        help
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="helpNotify">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="end-nav">
+                                <li>
+                                    <a class="link-item" href="javascript:;" role="button" id="bellNotify"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-solid fa-bell"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="bellNotify">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="profile-link">
+                                    <a class="link-item" href="javascript:;">
+                                        <img class="dp-img" src="images/profile-dp.png" alt="">
+                                        <span class="profile-name">D.Loper</span>
+                                    </a>
+                                </li>
+                                
+                                <li class="dropdown-wrap">
+                                    <a class="link-item" href="javascript:;" role="button" id="instructorNotify"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Instructor
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="instructorNotify">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </div>
+                        ul
                     </div>
                 </div>
             </div>

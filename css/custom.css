@@ -47,7 +47,73 @@ button:focus {
 }
 
 /************************** Header css **************************/
+.dashboard-content{
+    padding: 25px 0;
+}
+.dashboard-content .top-content{
+    display: flex;
+    align-items: center;
+}
+.dashboard-content .top-content .mid-nav,
+.dashboard-content .top-content .end-nav{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.dashboard-content .top-content .mid-nav li .link-item,
+.dashboard-content .top-content .end-nav li .link-item{
+    position: relative;
+    color: #535272;
+    display: block;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.dashboard-content .top-content .end-nav li .link-item i{
+    font-size: 18px;
+}
+.dashboard-content .top-content .mid-nav .dropdown-wrap .link-item::after,
+.dashboard-content .top-content .end-nav .dropdown-wrap .link-item::after{
+    content: '\f107';
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 700;
+}
+.dashboard-content .top-content .end-nav .profile-link .link-item img{
+    border-radius: 15px;
+    height: 50px;
+    margin: 0 10px;
+}
+.dashboard-content .top-content .end-nav{
+    margin-left: auto;
+}
+.dashboard-content .top-content .search-field{
+    width: 50%;
+    background-color: #fff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 1   5px rgba(0,0,0,0.1);
+}
+.dashboard-content .top-content .search-field i{
+    font-size: 14px;
+}
+.dashboard-content .top-content .search-field input{
+    width: calc(100% - 30px);
+    background-color: transparent;
+    border: none;
+    font-family: 'Nunito Sans', sans-serif;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
 /************************** Header css end **************************/
+/************************** side-menu css **************************/
 .dashboard-main .side-menu{
     position: sticky;
     top: 10px;
@@ -82,6 +148,9 @@ button:focus {
     font-size: 14px;
     z-index: 1;
 }
+.dashboard-main .side-menu .logout-btn{
+    margin: 0;
+}
 .dashboard-main .side-menu .menu-nav li a.active::before{
     content: '';
     position: absolute;
@@ -114,6 +183,7 @@ button:focus {
     height: 20px;
     background-color: #55555c;
 }
+/************************** side-menu css end **************************/
 /*
     font-family: 'Nunito', sans-serif;
     font-family: 'Nunito Sans', sans-serif;
