@@ -5,6 +5,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+<script src="js/calendar.js"></script>
 <script src="js/custom.js"></script>
 </script>
 </body>

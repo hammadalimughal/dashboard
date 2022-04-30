@@ -18,3 +18,5 @@ $(document).ready(function(){
     $(".nav-item .nav-link").removeClass("active");
     $(`.nav-item .nav-link[href="${filename}"]`).addClass("active")
 })
+
+// setting height of calendar 

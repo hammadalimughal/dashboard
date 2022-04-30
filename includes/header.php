@@ -7,6 +7,7 @@
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/javascript-calendar.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css.map" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.min.css.map" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="images/favicon.png" />

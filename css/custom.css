@@ -184,6 +184,346 @@ button:focus {
     background-color: #55555c;
 }
 /************************** side-menu css end **************************/
+.dashboard-content .top-card-listing{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+margin-bottom: 20px;}
+.dashboard-content .top-card-listing .card-content{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    width: 9.5%;
+    margin: 0 8px;
+    height: 190px;
+}
+.dashboard-content .top-card-listing .card-content:nth-child(1){
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: #fff;
+    padding: 0 15px 0 35px;
+}
+.dashboard-content .top-card-listing .card-content:nth-child(1) .featured-img{
+    width: 60%;
+    position: relative;
+    top: -25px;
+}
+.dashboard-content .top-card-listing .card-content:nth-child(1) .featured-info{
+    padding: 0 0 0 35px;
+}
+.dashboard-content .top-card-listing .card-content:nth-child(1) .featured-info h4{
+    font-family: 'Playfair Display', serif;
+    color: #363565;
+    font-size: 22px;
+    font-weight: 700;
+}
+.dashboard-content .top-card-listing .card-content:nth-child(1) .featured-info h6 a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #363565;
+}
+.dashboard-content .top-card-listing .card-content:nth-child(1) .featured-info ul{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.dashboard-content .top-card-listing .card-content:nth-child(1) .featured-info ul li a{
+    display: block;
+    font-size: 10px;
+    margin-right: 10px;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 10px;
+}
+.dashboard-content .top-card-listing .card-content:nth-child(1) .featured-info ul li:nth-child(1) a{
+    background-color: #e42424;
+}
+.dashboard-content .top-card-listing .card-content:nth-child(1) .featured-info ul li:nth-child(2) a{
+    background-color: #000;
+}
+.dashboard-content .top-card-listing .card-content:nth-child(1) .featured-info h6 a:hover{
+    text-decoration: underline;
+}
+.dashboard-content .top-card-listing .card-content:nth-child(1) .featured-info ul li a:hover{
+    filter: brightness(0.8);
+}
+.dashboard-content .top-card-listing .card-content:nth-child(2){
+    flex-grow: 1;
+    background-color: #e42424;
+}
+.dashboard-content .top-card-listing .card-content:nth-child(2),
+.dashboard-content .top-card-listing .card-content:nth-child(3),
+.dashboard-content .top-card-listing .card-content:nth-child(4),
+.dashboard-content .top-card-listing .card-content:nth-child(5){
+    
+}
+.dashboard-content .top-card-listing .card-content:nth-child(3){
+    background-color: #cf8908;
+}
+.dashboard-content .top-card-listing .card-content:nth-child(4){
+    background-color: #dea72e;
+}
+.dashboard-content .top-card-listing .card-content:nth-child(5){
+    background-color: #e8b84d;
+}
+.dashboard-content .top-card-listing .card-content .card-cntnt-a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.5s;
+}
+.dashboard-content .top-card-listing .card-content .card-cntnt-a:hover{
+    transform: scale(1.1);
+}
+.dashboard-content .top-card-listing .card-content .card-cntnt-a .icon-img{
+    height: 90px;
+}
+.dashboard-content .top-card-listing .card-content .card-cntnt-a h5{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.dashboard-content .icalendar{
+    max-width: unset;
+    min-width: unset;
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    margin: 0 8px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 5%);padding: 10px;
+}
+.dashboard-content .icalendar .icalendar__month{
+    display: block;
+    background-color: transparent;
+}
+.dashboard-content .icalendar .icalendar__week-days{
+    padding: 0 10px;
+    background-color: transparent;
+    margin: 10px 0;
+}
+
+.dashboard-content .icalendar .icalendar__week-days h6{
+    width: 14.28%;
+    text-align: center;
+    color: #a5a5a5;
+    font-size: 12px;
+}
+.dashboard-content .icalendar .icalendar__days{
+    padding: 0 10px;
+}
+.dashboard-content .icalendar .icalendar__days div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    /* height: 58px; */
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid rgba(240, 238, 238, 0.5);
+    font-size: 13px;
+    z-index: 1;
+}
+.dashboard-content .icalendar .icalendar__days .booked,
+.dashboard-content .icalendar .icalendar__days .icalendar__today{
+    background-color: transparent;
+    color: #000;
+}
+.dashboard-content .icalendar .icalendar__days .booked::before,
+.dashboard-content .icalendar .icalendar__days .icalendar__today::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    
+    top: 50%;
+    
+    transform: translate(-50%,-50%);height: 40px;width: 40px;border-radius: 50%;
+    background: linear-gradient(45deg, rgb(253, 192, 69) 0%, rgba(253,226,124,1) 50%, rgb(253, 192, 69) 100%);
+    z-index: -1;
+}
+.dashboard-content .icalendar .icalendar__days .icalendar__today::after{
+    content: '';
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    height: 15px;
+    width: 15px;
+    background-color: #000;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.dashboard-content .icalendar .icalendar__current-date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dashboard-content .icalendar .icalendar__current-date h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #000 ;
+}
+.dashboard-content .icalendar .calendar-sd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dashboard-content .icalendar .calendar-sd .arrow-date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dashboard-content .icalendar .calendar-sd p{
+    font-family: 'Nunito', sans-serif;
+    color: #a5a5a5;
+    text-align: left;
+    font-size: 12px;
+}
+.dashboard-content .icalendar .calendar-sd .arrow-date button{
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #a5a5a5;
+    margin-left: 10px;
+}
+.dashboard-content .icalendar .calendar-sd .arrow-date button:nth-child(1){
+    margin: 0;
+}
+.dashboard-content .award-wrapper{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background: linear-gradient(45deg, rgba(207,137,8,1) 0%, rgba(253,226,124,1) 51%, rgba(207,137,8,1) 100%);
+    border-radius: 15px;
+    padding: 15px 10px;
+}
+.dashboard-content .award-wrapper h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.dashboard-content .award-wrapper p{
+    font-size: 9px;
+}
+.dashboard-content .award-wrapper p span{
+    display: block;
+    font-size: 13px;
+}
+.dashboard-content .award-wrapper a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+.dashboard-content .progress-overview{
+    background-color: #fff;
+    box-shadow: 0 0 15px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+.dashboard-content .progress-overview .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dashboard-content .progress-overview .header h2{
+    font-family: 'Nunito', sans-serif;
+    color: #363565;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+}
+.dashboard-content .progress-overview .header h3 a{
+    font-family: 'Nunito', sans-serif;
+    color: #363565;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+}
+.dashboard-content .progress-overview .smiley-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.dashboard-content .progress-overview .smiley-wrapper::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 8px solid #e42424;
+    height: 250px;
+    border-radius: 50%;
+    width: 250px;
+}
+.dashboard-content .progress-overview .smiley-wrapper img{
+    width: 75px;
+    margin: 0 auto 20px;
+}
+.dashboard-content .progress-overview .smiley-wrapper h4{
+    font-family: 'Nunito', sans-serif;
+    color: #e42424;
+    font-weight: 800;
+    font-size: 24px;
+}
+.dashboard-content .overview-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.dashboard-content .overview-info li{
+    position: relative;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin: 10px;
+    height: 100px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.dashboard-content .overview-info li img{
+    width: 40%;
+    margin-right: 10px;
+}
+.dashboard-content .overview-info li .tag{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #e42424;
+    font-family: 'Nunito', sans-serif;
+}
+.dashboard-content .overview-info li h6{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    color: #55555c;
+}
+.dashboard-content .overview-info li h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 5px;
+    color: #363565;
+}
 /*
     font-family: 'Nunito', sans-serif;
     font-family: 'Nunito Sans', sans-serif;

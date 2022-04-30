@@ -99,7 +99,7 @@ $page = 'home';
                                         <span class="profile-name">D.Loper</span>
                                     </a>
                                 </li>
-                                
+
                                 <li class="dropdown-wrap">
                                     <a class="link-item" href="javascript:;" role="button" id="instructorNotify"
                                         data-bs-toggle="dropdown" aria-expanded="false">
@@ -113,7 +113,140 @@ $page = 'home';
                                 </li>
                             </ul>
                         </div>
-                        ul
+                        <ul class="top-card-listing panel">
+                            <li class="card-content">
+                                <div class="featured-img"><img class="img-fluid" src="images/featured-1.png" alt="">
+                                </div>
+                                <div class="featured-info">
+                                    <h4>d. loper</h4>
+                                    <h6><a href="mailto:mark.developer50@gmail.com">mark.developer50@gmail.com</a></h6>
+                                    <ul>
+                                        <li><a href="javascript:;">Super Admin</a></li>
+                                        <li><a href="javascript:;">Account Owner</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="card-content export-excel">
+                                <a class="card-cntnt-a" href="javascript:;">
+                                    <div class="icon-img"><img src="images/icon-1.png" alt=""></div>
+                                    <h5>Export in Excel</h5>
+                                </a>
+                            </li>
+                            <li class="card-content profile-card">
+                                <a class="card-cntnt-a" href="javascript:;">
+                                    <div class="icon-img"><img src="images/icon-2.png" alt=""></div>
+                                    <h5>Profile</h5>
+                                </a>
+                            </li>
+                            <li class="card-content progress-card">
+                                <a class="card-cntnt-a" href="javascript:;">
+                                    <div class="icon-img"><img src="images/icon-3.png" alt=""></div>
+                                    <h5>Progress</h5>
+                                </a>
+                            </li>
+                            <li class="card-content infographics-card">
+                                <a class="card-cntnt-a" href="javascript:;">
+                                    <div class="icon-img"><img src="images/icon-4.png" alt=""></div>
+                                    <h5>Infographics</h5>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="overview-info">
+                            <li>
+                                <img class="img-fluid graph" src="images/graph-1.png" alt="">
+                                <div class="info-txt">
+                                    <h6>Courses in progress</h6>
+                                    <h3>+12</h3>
+                                </div>
+                            </li>
+                            <li>
+                                <img class="img-fluid graph" src="images/graph-2.png" alt="">
+                                <div class="info-txt">
+                                    <h6>Completed Courses</h6>
+                                    <h3>+49</h3>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="tag">-2.5%</span>
+                                <img class="img-fluid graph" src="images/graph-3.png" alt="">
+                                <div class="info-txt">
+                                    <h6>Courses not started</h6>
+                                    <h3>+45</h3>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="tag">-2.5%</span>
+                                <img class="img-fluid graph" src="images/graph-4.png" alt="">
+                                <div class="info-txt">
+                                    <h6>Training time</h6>
+                                    <h3>0h 0m</h3>
+                                </div>
+                            </li>                            
+                            <li>
+                                <img class="img-fluid graph" src="images/graph-5.png" alt="">
+                                <div class="info-txt">
+                                    <h6>Badges</h6>
+                                    <h3>+49</h3>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="row">
+                            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 panel">
+                                <div class="icalendar h-100">
+                                    <div class="icalendar__month">
+                                        <div class="icalendar__current-date">
+                                            <h2>Activity</h2>
+                                            <h2 id="icalendarMonth" class="icalendarMonth"></h2>
+                                        </div>
+                                        <div class="calendar-sd">
+                                            <p>3 logins last week · 3 logins last month · last login: A few moments ago
+                                            </p>
+                                            <div class="arrow-date">
+                                                <button onclick="moveDate('prev')"><i
+                                                        class="fa-solid fa-caret-left"></i></button>
+                                                <button onclick="moveDate('next')"><i
+                                                        class="fa-solid fa-caret-right"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="icalendar__week-days">
+                                        <h6>Sun</h6>
+                                        <h6>Mon</h6>
+                                        <h6>Tue</h6>
+                                        <h6>Wed</h6>
+                                        <h6>Thu</h6>
+                                        <h6>Fri</h6>
+                                        <h6>Sat</h6>
+                                    </div>
+                                    <div class="icalendar__days"></div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12 panel">
+                                <div class="award-wrapper h-100">
+                                    <h3>recently earned</h3>
+                                    <div>
+                                        <img class="img-fluid" src="images/badge.png" alt="" class="badge">
+                                        <p>You haven't earned any badges yet.<span>Don't give up!</span></p>
+                                    </div>
+                                    <a href="javascript:;">View all badges <i class="fa-solid fa-chevron-down"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 panel">
+                                <div class="progress-overview h-100">
+                                    <div class="header">
+                                        <h2>progress overview</h2>
+                                        <h3>
+                                            <a href="javascript:;">View infographics <i
+                                                    class="fa-solid fa-chevron-down"></i></a>
+                                        </h3>
+                                    </div>
+                                    <div class="smiley-wrapper">
+                                        <img class="img-fluid" src="images/smiley.png" alt="">
+                                        <h4>60.9%</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
