@@ -18,6 +18,26 @@ const activeDate = [
         date: 20,
         month: "July",
         year: 2022
+    },{
+        date: 5,
+        month: "August",
+        year: 2022
+    },{
+        date: 10,
+        month: "September",
+        year: 2022
+    },{
+        date: 28,
+        month: "October",
+        year: 2022
+    },{
+        date: 2,
+        month: "November",
+        year: 2022
+    },{
+        date: 7,
+        month: "December",
+        year: 2022
     }
 ]
 

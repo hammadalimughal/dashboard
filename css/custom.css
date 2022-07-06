@@ -524,6 +524,108 @@ margin-bottom: 20px;}
     margin-top: 5px;
     color: #363565;
 }
+/************************** Login Css **************************/
+.login-sec{
+    padding: 60px 0;
+}
+.login-sec .login-form{
+    background-color: #fff;
+    box-shadow: 0 0 30px rgb(0 0 0 / 5%);
+    width: 85%;
+    font-family: 'Nunito', sans-serif;
+    padding: 50px 40px;
+    border-radius: 15px;
+}
+.login-sec .login-form h3{
+    text-transform: capitalize;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.login-sec .login-form h3 span{
+    display: block;
+}
+.login-sec .login-form h6{
+    color: #9595a4;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.login-sec .login-form h6 a{
+    color: #e42424;
+    text-transform: capitalize;
+}
+.login-sec .login-form .input-field input{
+    height: 60px;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    border: 2px solid #7a7a7a;
+    outline: none;
+    padding: 10px 30px;
+    width: 100%;
+}
+.login-sec .login-form .rem-for{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login-sec .login-form .rem-for .checkbox-field label{
+    font-size: 16px;
+    font-weight: 600;
+    color: #55555c;
+    user-select: none;
+    cursor: pointer;
+}
+.login-sec .login-form .rem-for a{
+    color: #a6a6a6;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.login-sec .login-form .submit-btn{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    background: linear-gradient(90deg, rgba(207,137,8,1) 0%, rgba(253,226,124,1) 51%, rgba(207,137,8,1) 100%);
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.login-sec .login-form p{
+    position: relative;
+    text-align: center;
+    color: #d3d3e6;
+    z-index: 1;
+    margin: 25px 0;
+}
+.login-sec .login-form p::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #d3d3e6;
+    left: 0;
+    right: 0;
+    height: 1px;
+    z-index: -1;
+}
+.login-sec .login-form p span{
+    background-color: #fff;
+    padding: 0 8px;
+}
+.login-sec .login-form .bottom-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login-sec .login-form .bottom-link li{
+    width: 48%;
+}
 /*
     font-family: 'Nunito', sans-serif;
     font-family: 'Nunito Sans', sans-serif;
